@@ -7,7 +7,7 @@ def guess_game():
     print("Welcome to the Guessing Game!")
     print("I have think a number between 1 and 100.\n Try to Guess it !\n ")
 
-    while (attempts<=5 and guess != num):
+    while (attempts<5 and guess != num):
         guess=int(input("Enter your guess: "))
         attempts+=1
 
