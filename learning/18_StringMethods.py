@@ -21,4 +21,15 @@ a = "there are four words"
 print(a.split(" "))
 print("The numbers of words in string ",len(a.split(" ")))
 
-#
+#String concatenation
+#We used + to concatenate different strings
+a = "Hello"
+b = "Sathi"
+c = a + b
+print(c)
+
+#Adding space between two string:
+a = "Hello"
+b = "Sathi"
+c = a + " " +b
+print(c)
