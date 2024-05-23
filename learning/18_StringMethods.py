@@ -33,3 +33,35 @@ a = "Hello"
 b = "Sathi"
 c = a + " " +b
 print(c)
+
+#Capitalizing the first character to uppercase
+a = "this is demo"
+print(a.capitalize())
+
+#convert string in to lowercase
+m = "Hi Sathi"
+print(m.casefold())
+print(m.lower())
+
+#convert string in to uppercase
+msg =" good morning dear "
+print(msg.upper())
+
+#checking if the string is lowercase
+string = "this is lowercase"
+print(string.islower())
+
+#checking if the string is uppercase
+print(string.isupper())
+
+#counting the character in the string
+a = " this is this is this is"
+print(a.count("this"))
+
+#syntax: string.center(kati length ko string banaune)
+a = "banana"
+b=a.center(20)
+print(b)
+print(len(b))
+
+#
