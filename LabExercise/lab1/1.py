@@ -8,3 +8,4 @@
 x = int(input("Enter the value of x: "))
 y = int(input("Enter the value of y: "))
 print(f"The binary value of x and y is {bin(x)} and {bin(y)} respectively.")
+print(f"The AND operation between  {x} and {y} is {bin(x & y)}")
