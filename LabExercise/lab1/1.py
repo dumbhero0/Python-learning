@@ -8,4 +8,10 @@
 x = int(input("Enter the value of x: "))
 y = int(input("Enter the value of y: "))
 print(f"The binary value of x and y is {bin(x)} and {bin(y)} respectively.")
-print(f"The AND operation between  {x} and {y} is {bin(x & y)}")
+print(f"The AND operation between  {x} and {y} is: {bin(x & y)}")
+print(f"The OR operation between {x} and {y} is: {bin(x|y)}")
+print(f"The XOR operations between {x} and {y} is: {bin(x^y)}")
+
+print(f"The once complement of x is: {bin(~x)}")
+print(f"The left shift on {bin(x)} by 3 bits is {bin(x<<3)}")
+print(f"The left shift on {bin(y)} by  2 bits is {bin(y<<2)}")
