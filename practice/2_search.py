@@ -4,5 +4,5 @@ for index in range(len(list)):
     if(list[index]%3==0 or list[index]%5==0):
         print("yes ! there is multiples of 5 or 3 in list")
         break
-else:
-    print("No ! there is not any multiples of 5 or 3")
+    else:
+     print("No ! there is not any multiples of 5 or 3")

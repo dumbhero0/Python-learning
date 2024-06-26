@@ -5,6 +5,6 @@ for index in  range(len(list)):
         if(list[index]%2 != 0):
             print("yes there is odd number in even index")
             break
-    
+
 else:
     print("No ! there is not any odd number in even index")

@@ -1,3 +1,4 @@
+#WAP to create a function that accepts variable numbers of arguments and find the factorial of each . then display all results.
 def factorial(*num):
     #using for loop to take one by one integer
     for value in num:

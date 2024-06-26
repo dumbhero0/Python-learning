@@ -1,3 +1,4 @@
+#WAP to read a tuple from user and check  prime or not for each value
 data=tuple(input("Enter data:"). split(","))
 for index in data:
     value=int(index)
