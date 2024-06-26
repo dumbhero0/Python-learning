@@ -1,8 +1,6 @@
 #WAP to create a dictionary that contains districts and their headquarters and then extract the districts for which headquarter names in same as the district name.
 data={
-    "dolakha":"charikot",
-    "kathmandu":"kathmandu",
-    "Sindhupalchowk":"Chautara",
+    "dolakha":"charikot","kathmandu":"kathmandu","Sindhupalchowk":"Chautara",
     "Ramechhap":"manthali",
     "lalitpur":"Lalitpur",
     "Bhaktapur":"bhaktapur",
