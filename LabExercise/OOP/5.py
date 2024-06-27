@@ -34,11 +34,11 @@ class Bank:
             print(f"Customer '{name}' does not exist")
 
 # Example usage:
-babish = Bank()
-babish.CreateCustomer("babish", 10000)
-babish.CreateCustomer("ram", 10000)
+sonam = Bank()
+sonam.CreateCustomer("sonam", 10000)
+sonam.CreateCustomer("ram", 10000)
 
-babish.make_transaction("babish", "ram", 1000)
+sonam.make_transaction("sonam", "ram", 1000)
 
-babish.SeeMybalance("babish")
-babish.SeeMybalance("ram")
+sonam.SeeMybalance("sonam")
+sonam.SeeMybalance("ram")
